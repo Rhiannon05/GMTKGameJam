@@ -1,8 +1,8 @@
 Using pre-set license
 Built from '6000.1/staging' branch; Version is '6000.1.14f1 (db7aa045cc2c) revision 14383776'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32607 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 8144 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-Date: 2025-07-30T22:52:20Z
+Date: 2025-07-31T18:38:41Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.1.14f1\Editor\Unity.exe
@@ -12,21 +12,21 @@ C:\Program Files\Unity\Hub\Editor\6000.1.14f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/rdomb/OneDrive/Desktop/GigatonStun/GMTKGameJam
+C:/Users/bjkam/OneDrive/Unity/GMTKGameJam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59262
+51922
 -job-worker-count
-7
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/rdomb/OneDrive/Desktop/GigatonStun/GMTKGameJam
-C:/Users/rdomb/OneDrive/Desktop/GigatonStun/GMTKGameJam
+Successfully changed project path to: C:/Users/bjkam/OneDrive/Unity/GMTKGameJam
+C:/Users/bjkam/OneDrive/Unity/GMTKGameJam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -62,15 +62,13 @@ C:/Users/rdomb/OneDrive/Desktop/GigatonStun/GMTKGameJam
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5940]  Target information:
+Player connection [9716]  Target information:
 
-Player connection [5940]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 3817386920 [EditorId] 3817386920 [Version] 1048832 [Id] WindowsEditor(7,Rhiannons_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9716]  * "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 1726725924 [EditorId] 1726725924 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KH0JMVR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [5940]  * "[IP] 192.168.1.168 [Port] 0 [Flags] 2 [Guid] 3817386920 [EditorId] 3817386920 [Version] 1048832 [Id] WindowsEditor(7,Rhiannons_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [5940] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [5940] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 7
+Player connection [9716] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9716] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -81,382 +79,421 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.19 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 328.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.14f1 (db7aa045cc2c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/rdomb/OneDrive/Desktop/GigatonStun/GMTKGameJam/Assets
+[Subsystems] Discovering subsystems at path C:/Users/bjkam/OneDrive/Unity/GMTKGameJam/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:         Direct3D 12 [level 12.1]
-    Renderer:        NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Renderer:        NVIDIA GeForce RTX 2060 (ID=0x1f08)
     Vendor:          NVIDIA
-    VRAM:            12110 MB
-    App VRAM Budget: 11342 MB
+    VRAM:            5955 MB
+    App VRAM Budget: 5187 MB
     Driver:          32.0.15.6094
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002098 seconds.
-- Loaded All Assemblies, in  0.402 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.14f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 1.079260 seconds.
+- Loaded All Assemblies, in 12.758 seconds
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.416 seconds
-Domain Reload Profiling: 815ms
-	BeginReloadAssembly (136ms)
+- Finished resetting the current domain, in  2.997 seconds
+Domain Reload Profiling: 15746ms
+	BeginReloadAssembly (10389ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (161ms)
-		LoadAssemblies (133ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (1211ms)
+	LoadAllAssembliesAndSetupDomain (1048ms)
+		LoadAssemblies (10406ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (155ms)
-				TypeCache.ScanAssembly (143ms)
-			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (416ms)
+		AnalyzeDomain (1011ms)
+			TypeCache.Refresh (1003ms)
+				TypeCache.ScanAssembly (420ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (2999ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (364ms)
+		SetupLoadedEditorAssemblies (2743ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (98ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (136ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			InitializePlatformSupportModulesInManaged (363ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (264ms)
+			ProcessInitializeOnLoadAttributes (1330ms)
+			ProcessInitializeOnLoadMethodAttributes (769ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.951 seconds
-Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+- Loaded All Assemblies, in 20.394 seconds
+Refreshing native plugins compatible for Editor in 26.28 ms, found 4 plugins.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.692 seconds
-Domain Reload Profiling: 1638ms
-	BeginReloadAssembly (248ms)
+- Finished resetting the current domain, in  2.618 seconds
+Domain Reload Profiling: 22976ms
+	BeginReloadAssembly (984ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (21ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (599ms)
-		LoadAssemblies (418ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (223ms)
+	RebuildCommonClasses (147ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (266ms)
+	LoadAllAssembliesAndSetupDomain (18927ms)
+		LoadAssemblies (17491ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (291ms)
-			TypeCache.Refresh (207ms)
-				TypeCache.ScanAssembly (192ms)
-			BuildScriptInfoCaches (65ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (693ms)
+		AnalyzeDomain (2011ms)
+			TypeCache.Refresh (1817ms)
+				TypeCache.ScanAssembly (1655ms)
+			BuildScriptInfoCaches (163ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2621ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (546ms)
+		SetupLoadedEditorAssemblies (2196ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (329ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (394ms)
+			ProcessInitializeOnLoadAttributes (1186ms)
+			ProcessInitializeOnLoadMethodAttributes (537ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.66 seconds
-Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 9.12 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6635 unused Assets / (4.7 MB). Loaded Objects now: 7382.
-Memory consumption went from 144.4 MB to 139.7 MB.
-Total: 6.743700 ms (FindLiveObjects: 0.508400 ms CreateObjectMapping: 0.473200 ms MarkObjects: 3.745500 ms  DeleteObjects: 2.015700 ms)
+Unloading 6636 unused Assets / (4.1 MB). Loaded Objects now: 7383.
+Memory consumption went from 142.4 MB to 138.3 MB.
+Total: 127.717800 ms (FindLiveObjects: 86.409800 ms CreateObjectMapping: 2.527700 ms MarkObjects: 25.906700 ms  DeleteObjects: 12.865300 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 1865996.504908 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afdff4c3a2fdaa6f8b2ca806ac4aa93d') in 0.0069743 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6623 unused Assets / (4.2 MB). Loaded Objects now: 7383.
+Memory consumption went from 142.3 MB to 138.1 MB.
+Total: 30.276600 ms (FindLiveObjects: 2.831600 ms CreateObjectMapping: 4.938200 ms MarkObjects: 14.771800 ms  DeleteObjects: 7.731800 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.269458 seconds.
-  path: Assets/Scenes/Gameplay.unity
-  artifactKey: Guid(4bb01cb75266400439676250a4784f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Gameplay.unity using Guid(4bb01cb75266400439676250a4784f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c063d3bb1c5b710436d130707c1a0094') in 0.0005618 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.294650 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(934cd443e1800ad4e8fac9a926843b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(934cd443e1800ad4e8fac9a926843b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '298772315467aa68ca48d3d264d84ff9') in 0.0005923 seconds
+  Time since last request: 221153.835585 seconds.
+  path: Assets/Code/HealthAndVitality.cs
+  artifactKey: Guid(e8af5d5e8622ac8499faf807562c7df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/HealthAndVitality.cs using Guid(e8af5d5e8622ac8499faf807562c7df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eb205347f845374e9a235296b3f9015') in 0.0264668 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.705 seconds
-Refreshing native plugins compatible for Editor in 1.81 ms, found 4 plugins.
+- Loaded All Assemblies, in  4.706 seconds
+Refreshing native plugins compatible for Editor in 5.93 ms, found 4 plugins.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.663 seconds
-Domain Reload Profiling: 1367ms
-	BeginReloadAssembly (199ms)
+- Finished resetting the current domain, in  1.590 seconds
+Domain Reload Profiling: 6289ms
+	BeginReloadAssembly (1282ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (50ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (435ms)
-		LoadAssemblies (343ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (509ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (115ms)
+	LoadAllAssembliesAndSetupDomain (3173ms)
+		LoadAssemblies (2428ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (163ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (664ms)
+		AnalyzeDomain (1314ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (927ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1593ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (524ms)
+		SetupLoadedEditorAssemblies (1283ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (326ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (289ms)
+			ProcessInitializeOnLoadAttributes (773ms)
+			ProcessInitializeOnLoadMethodAttributes (166ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 11.08 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6633 unused Assets / (4.4 MB). Loaded Objects now: 7387.
-Memory consumption went from 148.0 MB to 143.5 MB.
-Total: 7.254900 ms (FindLiveObjects: 0.688800 ms CreateObjectMapping: 0.461100 ms MarkObjects: 3.919000 ms  DeleteObjects: 2.184500 ms)
+Unloading 6634 unused Assets / (3.9 MB). Loaded Objects now: 7388.
+Memory consumption went from 145.9 MB to 142.1 MB.
+Total: 29.042500 ms (FindLiveObjects: 2.986100 ms CreateObjectMapping: 3.648100 ms MarkObjects: 14.326200 ms  DeleteObjects: 8.069100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6623 unused Assets / (4.8 MB). Loaded Objects now: 7388.
+Memory consumption went from 148.3 MB to 143.5 MB.
+Total: 25.408600 ms (FindLiveObjects: 2.537400 ms CreateObjectMapping: 2.160300 ms MarkObjects: 11.196600 ms  DeleteObjects: 9.511900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 14.731621 seconds.
+  Time since last request: 66.555595 seconds.
   path: Assets/Code
   artifactKey: Guid(14faaac8358a07a4199692aa20761854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code using Guid(14faaac8358a07a4199692aa20761854) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21e929c725c62d9658ad6096fbac322b') in 0.0014336 seconds
+Start importing Assets/Code using Guid(14faaac8358a07a4199692aa20761854) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7d9f12e4fd44c6ef038dac84e9110af') in 0.0093123 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.27 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6623 unused Assets / (4.5 MB). Loaded Objects now: 7388.
-Memory consumption went from 148.1 MB to 143.6 MB.
-Total: 7.780400 ms (FindLiveObjects: 0.589200 ms CreateObjectMapping: 0.506900 ms MarkObjects: 4.475200 ms  DeleteObjects: 2.207500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
 Received Import Request.
-  Time since last request: 23.557017 seconds.
-  path: Assets/Code/MenuChangeScript.cs
-  artifactKey: Guid(d327a0f55ff36f94494fe3b41e658e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/MenuChangeScript.cs using Guid(d327a0f55ff36f94494fe3b41e658e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e99e9c0ecd153fae39465cf5db2e3005') in 0.0006454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.704 seconds
-Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.625 seconds
-Domain Reload Profiling: 1327ms
-	BeginReloadAssembly (189ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (445ms)
-		LoadAssemblies (348ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (161ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (625ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (485ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (311ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.55 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6634 unused Assets / (4.2 MB). Loaded Objects now: 7390.
-Memory consumption went from 148.0 MB to 143.8 MB.
-Total: 7.367600 ms (FindLiveObjects: 0.630900 ms CreateObjectMapping: 0.545000 ms MarkObjects: 3.779500 ms  DeleteObjects: 2.411100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 202.799547 seconds.
+  Time since last request: 16.631327 seconds.
   path: Assets/Code/Randomizer.cs
   artifactKey: Guid(c724c3fa1df5a8d4e993518c43168247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Randomizer.cs using Guid(c724c3fa1df5a8d4e993518c43168247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd801045295c77cf4aee2b1eb0d59c62e') in 0.0017885 seconds
+Start importing Assets/Code/Randomizer.cs using Guid(c724c3fa1df5a8d4e993518c43168247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65b9b79e9ee21254e8ed48886d7992a1') in 0.0843811 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 9.86 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6623 unused Assets / (3.6 MB). Loaded Objects now: 7390.
-Memory consumption went from 148.2 MB to 144.5 MB.
-Total: 17.384400 ms (FindLiveObjects: 1.250200 ms CreateObjectMapping: 1.041400 ms MarkObjects: 9.174000 ms  DeleteObjects: 5.916900 ms)
+Unloading 6623 unused Assets / (4.4 MB). Loaded Objects now: 7388.
+Memory consumption went from 146.1 MB to 141.7 MB.
+Total: 21.142900 ms (FindLiveObjects: 1.876900 ms CreateObjectMapping: 1.069800 ms MarkObjects: 11.322300 ms  DeleteObjects: 6.871400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6624 unused Assets / (4.0 MB). Loaded Objects now: 7389.
+Memory consumption went from 148.3 MB to 144.3 MB.
+Total: 60.764200 ms (FindLiveObjects: 3.558500 ms CreateObjectMapping: 7.218200 ms MarkObjects: 30.053400 ms  DeleteObjects: 19.929000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 75.276920 seconds.
+  path: Assets/Code/MasterScr.cs
+  artifactKey: Guid(e24e2371597c2c54893c32106397f497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/MasterScr.cs using Guid(e24e2371597c2c54893c32106397f497) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5815c50548e231fe846241b4b75fe28c') in 0.0299607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6623 unused Assets / (4.0 MB). Loaded Objects now: 7388.
+Memory consumption went from 146.1 MB to 142.1 MB.
+Total: 35.052700 ms (FindLiveObjects: 5.386000 ms CreateObjectMapping: 3.421300 ms MarkObjects: 14.814200 ms  DeleteObjects: 11.423500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6624 unused Assets / (4.8 MB). Loaded Objects now: 7389.
+Memory consumption went from 148.3 MB to 143.5 MB.
+Total: 27.422800 ms (FindLiveObjects: 2.126200 ms CreateObjectMapping: 1.766100 ms MarkObjects: 13.850500 ms  DeleteObjects: 9.678000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 51.054414 seconds.
+  path: Assets/Code/GameMaster.cs
+  artifactKey: Guid(2dfb548802211e44fb0617da4652ba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/GameMaster.cs using Guid(2dfb548802211e44fb0617da4652ba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b18638cce61e1a004c563fbf110dbfb0') in 0.0027877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6624 unused Assets / (3.9 MB). Loaded Objects now: 7389.
+Memory consumption went from 146.1 MB to 142.2 MB.
+Total: 46.111400 ms (FindLiveObjects: 2.846800 ms CreateObjectMapping: 3.180500 ms MarkObjects: 23.584200 ms  DeleteObjects: 16.495400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6624 unused Assets / (2.8 MB). Loaded Objects now: 7389.
+Memory consumption went from 148.3 MB to 145.5 MB.
+Total: 619.145600 ms (FindLiveObjects: 8.901700 ms CreateObjectMapping: 2.673000 ms MarkObjects: 597.989400 ms  DeleteObjects: 9.577600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 17099.480977 seconds.
+  path: Assets/Code/CellCode.cs
+  artifactKey: Guid(9716f1ac225094b468fad5639a953d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/CellCode.cs using Guid(9716f1ac225094b468fad5639a953d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1662d65d7f7c9a929bd68dd89b3fb919') in 0.2743837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 16.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6624 unused Assets / (3.8 MB). Loaded Objects now: 7389.
+Memory consumption went from 146.1 MB to 142.3 MB.
+Total: 50.402900 ms (FindLiveObjects: 4.678800 ms CreateObjectMapping: 6.069600 ms MarkObjects: 23.553000 ms  DeleteObjects: 16.094200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.875 seconds
-Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+- Loaded All Assemblies, in  8.736 seconds
+Refreshing native plugins compatible for Editor in 3.95 ms, found 4 plugins.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.626 seconds
-Domain Reload Profiling: 2475ms
-	BeginReloadAssembly (967ms)
+- Finished resetting the current domain, in  1.393 seconds
+Domain Reload Profiling: 10120ms
+	BeginReloadAssembly (3316ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (44ms)
+		DisableScriptedObjects (1350ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (80ms)
-	RebuildCommonClasses (114ms)
-	RebuildNativeTypeToScriptingClass (51ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (657ms)
-		LoadAssemblies (1205ms)
+		ReleaseScriptingObjects (6ms)
+		CreateAndSetChildDomain (1001ms)
+	RebuildCommonClasses (210ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (5095ms)
+		LoadAssemblies (5050ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (174ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (626ms)
+		AnalyzeDomain (539ms)
+			TypeCache.Refresh (72ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (400ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1394ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (487ms)
+		SetupLoadedEditorAssemblies (1103ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (109ms)
-			ProcessInitializeOnLoadAttributes (298ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (267ms)
+			ProcessInitializeOnLoadAttributes (633ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 1.99 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 3.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6634 unused Assets / (4.6 MB). Loaded Objects now: 7392.
-Memory consumption went from 150.2 MB to 145.6 MB.
-Total: 9.138300 ms (FindLiveObjects: 0.774200 ms CreateObjectMapping: 0.639600 ms MarkObjects: 4.950800 ms  DeleteObjects: 2.772200 ms)
+Unloading 6635 unused Assets / (5.0 MB). Loaded Objects now: 7391.
+Memory consumption went from 148.2 MB to 143.1 MB.
+Total: 21.513600 ms (FindLiveObjects: 1.433400 ms CreateObjectMapping: 0.567900 ms MarkObjects: 11.417300 ms  DeleteObjects: 8.036800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 264.533154 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
-  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e296ef459dfaf46393649ec7d3a4219d') in 0.5173912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 98.600973 seconds.
+  path: Assets/Code/GameMaster.cs
+  artifactKey: Guid(2dfb548802211e44fb0617da4652ba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/GameMaster.cs using Guid(2dfb548802211e44fb0617da4652ba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1367478bb538b0acb11ad603a217e90') in 0.0221182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
-  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ec7b15aed4b88952bc092da9434553b') in 0.0846661 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6624 unused Assets / (3.7 MB). Loaded Objects now: 7391.
+Memory consumption went from 146.2 MB to 142.4 MB.
+Total: 683.176800 ms (FindLiveObjects: 14.096800 ms CreateObjectMapping: 2.881900 ms MarkObjects: 660.726800 ms  DeleteObjects: 5.464700 ms)
 
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6625 unused Assets / (4.2 MB). Loaded Objects now: 7392.
+Memory consumption went from 148.3 MB to 144.1 MB.
+Total: 19.486000 ms (FindLiveObjects: 1.500300 ms CreateObjectMapping: 0.925700 ms MarkObjects: 10.111800 ms  DeleteObjects: 6.946100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
-  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db308382e8248b4313ed3f0e9423aeff') in 0.1090338 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 2107.166003 seconds.
+  path: Assets/Code/CellInteractionManager.cs
+  artifactKey: Guid(291558a355c4d3f41a16401874323a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/CellInteractionManager.cs using Guid(291558a355c4d3f41a16401874323a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '444b6248e75bc2adc678892e9dd6a9e2') in 0.1084537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
-  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f25b7713fb95ed8c446a67b9eee3bff') in 0.0653987 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6625 unused Assets / (3.1 MB). Loaded Objects now: 7392.
+Memory consumption went from 146.2 MB to 143.1 MB.
+Total: 39.134900 ms (FindLiveObjects: 2.477100 ms CreateObjectMapping: 3.832400 ms MarkObjects: 23.795300 ms  DeleteObjects: 9.028100 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.033621 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
-  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '690648cb6d163122011c47e687c5b9e2') in 0.0309962 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 32.739614 seconds.
+  path: Assets/Code/CellInteractionManager.cs
+  artifactKey: Guid(291558a355c4d3f41a16401874323a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/CellInteractionManager.cs using Guid(291558a355c4d3f41a16401874323a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5408c1c520b476ec4532254359b9cf0f') in 0.0027451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
-  artifactKey: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '348a7852e3dc017231dd206a900fcf7f') in 0.011739 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6625 unused Assets / (3.7 MB). Loaded Objects now: 7392.
+Memory consumption went from 146.2 MB to 142.4 MB.
+Total: 49.864000 ms (FindLiveObjects: 3.117000 ms CreateObjectMapping: 20.132600 ms MarkObjects: 17.290400 ms  DeleteObjects: 9.320600 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat
-  artifactKey: Guid(6751ce1a4611b3940812c13a6847d94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat using Guid(6751ce1a4611b3940812c13a6847d94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3e98f7e74d3ad54945d7ede9cb23566') in 0.4211454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 638.492989 seconds.
+  path: Assets/Code/Randomizer.cs
+  artifactKey: Guid(c724c3fa1df5a8d4e993518c43168247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Randomizer.cs using Guid(c724c3fa1df5a8d4e993518c43168247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb2cd5af4351ed097edfead66075d5e0') in 0.0995104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

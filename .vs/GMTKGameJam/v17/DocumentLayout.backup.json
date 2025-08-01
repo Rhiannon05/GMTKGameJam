@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bjkam\\OneDrive\\Unity\\GMTKGameJam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54140767-D361-F6F8-F1F5-D135B771AF1A}|Assembly-CSharp.csproj|c:\\users\\bjkam\\onedrive\\unity\\gmtkgamejam\\assets\\code\\randomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54140767-D361-F6F8-F1F5-D135B771AF1A}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\randomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54140767-D361-F6F8-F1F5-D135B771AF1A}|Assembly-CSharp.csproj|c:\\users\\bjkam\\onedrive\\unity\\gmtkgamejam\\assets\\code\\gamemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54140767-D361-F6F8-F1F5-D135B771AF1A}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\gamemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54140767-D361-F6F8-F1F5-D135B771AF1A}|Assembly-CSharp.csproj|C:\\Users\\bjkam\\OneDrive\\Unity\\GMTKGameJam\\assets\\code\\cellcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54140767-D361-F6F8-F1F5-D135B771AF1A}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\cellcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54140767-D361-F6F8-F1F5-D135B771AF1A}|Assembly-CSharp.csproj|C:\\Users\\bjkam\\OneDrive\\Unity\\GMTKGameJam\\assets\\code\\healthandvitality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54140767-D361-F6F8-F1F5-D135B771AF1A}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\healthandvitality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameMaster.cs",
+              "DocumentMoniker": "C:\\Users\\bjkam\\OneDrive\\Unity\\GMTKGameJam\\Assets\\Code\\GameMaster.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\GameMaster.cs",
+              "ToolTip": "C:\\Users\\bjkam\\OneDrive\\Unity\\GMTKGameJam\\Assets\\Code\\GameMaster.cs",
+              "RelativeToolTip": "Assets\\Code\\GameMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T18:43:39.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Randomizer.cs",
+              "DocumentMoniker": "C:\\Users\\bjkam\\OneDrive\\Unity\\GMTKGameJam\\Assets\\Code\\Randomizer.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Randomizer.cs",
+              "ToolTip": "C:\\Users\\bjkam\\OneDrive\\Unity\\GMTKGameJam\\Assets\\Code\\Randomizer.cs",
+              "RelativeToolTip": "Assets\\Code\\Randomizer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T18:41:30.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CellCode.cs",
+              "DocumentMoniker": "C:\\Users\\bjkam\\OneDrive\\Unity\\GMTKGameJam\\Assets\\Code\\CellCode.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\CellCode.cs",
+              "ToolTip": "C:\\Users\\bjkam\\OneDrive\\Unity\\GMTKGameJam\\Assets\\Code\\CellCode.cs",
+              "RelativeToolTip": "Assets\\Code\\CellCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T18:40:43.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HealthAndVitality.cs",
+              "DocumentMoniker": "C:\\Users\\bjkam\\OneDrive\\Unity\\GMTKGameJam\\Assets\\Code\\HealthAndVitality.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\HealthAndVitality.cs",
+              "ToolTip": "C:\\Users\\bjkam\\OneDrive\\Unity\\GMTKGameJam\\Assets\\Code\\HealthAndVitality.cs",
+              "RelativeToolTip": "Assets\\Code\\HealthAndVitality.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T18:38:53.333Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
